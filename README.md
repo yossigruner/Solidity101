@@ -31,6 +31,6 @@ npx hardhat run scripts/deploy-UnityERC721.ts --network goerli
   
 ```
 npx hardhat verify --contract contracts/HelloWorld.sol:HelloWorld --network goerli <ADDRESS>
-npx hardhat verify --contract contracts/UnityERC20.sol:UnityERC20 --network goerli 0x266b108923dE5866E1970CebF72FdA7455f9138e
-npx hardhat verify --contract contracts/UnityERC721.sol:UnityERC721 --network goerli 0xDA492B0932875A80f6D808A704A9691700c98FF5
+npx hardhat verify --contract contracts/UnityERC20.sol:UnityERC20 --network goerli <ADDRESS>
+npx hardhat verify --contract contracts/UnityERC721.sol:UnityERC721 --network goerli <ADDRESS>
 ```
